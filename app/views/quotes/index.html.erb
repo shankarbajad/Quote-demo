@@ -1,0 +1,14 @@
+<table>
+	<tr>
+		<td>Title</td>
+		<td>Content</td>
+		<td>Link</td>
+	</tr>
+	<% @quotes.each do |quote| %>
+	<tr>
+		<td><%=quote.title %></td>
+		<td><%=raw(quote.content) %></td>
+		<td><%=quote.link %></td>
+	</tr>
+	<% end %>
+</table>

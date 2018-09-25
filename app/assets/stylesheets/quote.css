@@ -1,0 +1,61 @@
+#box {
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  background-color: rgb(255, 255, 255);
+  width:60%;
+  margin:10% auto 5%;
+  padding:36px;
+  color: #333;
+  text-align: center;
+	}
+#quote-content {
+  max-width: 100%;
+  font-size: 2em;
+  font-family: 'Merriweather', serif;
+  line-height: 1.3em;
+}
+#person {
+  max-width: 100%;
+  font-size: 1.2em;
+}
+#source {
+  max-width: 100%;
+  font-size: 1em;
+}
+#get-a-quote, #view-quote {
+  text-align: center;
+  padding: 15px;
+  font-size: 1.2em;
+  width:150px;
+  margin:40px auto;
+  font-family: 'Lato', sans-serif;
+  background-color: rgba(255, 255, 255, .4);
+  border-radius: 5px;
+  border: 1px #999 solid;
+  cursor: pointer;
+}
+#get-a-quote:hover {
+  background-color: rgba(255, 255, 255, .7);
+}
+#get-a-quote:active {
+  background-color: rgba(255, 255, 255, 1);
+}
+a {
+  color:rgb(1, 162, 176);
+}
+/* This is a media query. Enclosed styles will only be added to screens smaller than 768px */
+@media only screen and (max-width: 768px) {
+  #quote-content {
+    font-size: 1.6em;
+  }
+  #get-a-quote {
+    padding: 30px;
+    font-size: 1.5em;
+    width:75%;
+  }
+  #box {
+    width:75%;
+    padding-top:15px;
+    margin:7% auto 5%;
+  }
+}
